@@ -45,6 +45,10 @@ $database = 'blog';
 - Log in to view or manage posts
 - Admin users can create, edit, or delete posts and uploaded images
 
+## 📁 uploads/ Directory
+The uploads/ directory is used to store image files that are uploaded by users when creating or editing blog posts.
+Uploaded images will be physically stored in this directory, and image metadata (like filename and post association) will be stored in the database.
+
 ## 🔐 Security Notice
 - Never upload real credentials to a public repository.
 - Add `db_credentials.php` and uploads/ to your `.gitignore` file.
